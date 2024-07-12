@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.header-links{
+    display: flex;
+    font-size: 18px;
+    justify-content: right;
+    gap: 25px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #e5e7eb;
+
+}
+
+.title{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.hero h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    justify-content: center;
+    align-self: flex-start;
+    padding: 10px;
+    color: #f9faf8;
+    
+}
+
+
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: grey;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+
+}
+
+.content{
+    display: flex;
+    padding-right: 100px;
+    flex: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.content h1 {
+    display: flex;
+    align-items: center;    
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.content-image {
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+
+.content-image img{
+    display: flex;
+    border: #3882f6;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+}
